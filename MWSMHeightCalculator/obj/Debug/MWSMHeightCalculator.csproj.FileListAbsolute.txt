@@ -1,0 +1,10 @@
+C:\Users\skocak\source\repos\MWSMHeightCalculator\MWSMHeightCalculator\bin\Debug\MWSMHeightCalculator.exe.config
+C:\Users\skocak\source\repos\MWSMHeightCalculator\MWSMHeightCalculator\bin\Debug\MWSMHeightCalculator.exe
+C:\Users\skocak\source\repos\MWSMHeightCalculator\MWSMHeightCalculator\bin\Debug\MWSMHeightCalculator.pdb
+C:\Users\skocak\source\repos\MWSMHeightCalculator\MWSMHeightCalculator\obj\Debug\MWSMHeightCalculator.csproj.AssemblyReference.cache
+C:\Users\skocak\source\repos\MWSMHeightCalculator\MWSMHeightCalculator\obj\Debug\MWSMHeightCalculator.frmMwsmHeightCal.resources
+C:\Users\skocak\source\repos\MWSMHeightCalculator\MWSMHeightCalculator\obj\Debug\MWSMHeightCalculator.Properties.Resources.resources
+C:\Users\skocak\source\repos\MWSMHeightCalculator\MWSMHeightCalculator\obj\Debug\MWSMHeightCalculator.csproj.GenerateResource.cache
+C:\Users\skocak\source\repos\MWSMHeightCalculator\MWSMHeightCalculator\obj\Debug\MWSMHeightCalculator.csproj.CoreCompileInputs.cache
+C:\Users\skocak\source\repos\MWSMHeightCalculator\MWSMHeightCalculator\obj\Debug\MWSMHeightCalculator.exe
+C:\Users\skocak\source\repos\MWSMHeightCalculator\MWSMHeightCalculator\obj\Debug\MWSMHeightCalculator.pdb
