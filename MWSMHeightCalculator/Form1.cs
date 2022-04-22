@@ -387,7 +387,7 @@ namespace MWSMHeightCalculator
                 e.Handled = true;
             }
         }
-
+        //sdsds
         private void btnReset_Click(object sender, EventArgs e)
         {
             txtM.Text = "";
