@@ -239,6 +239,10 @@ namespace MWSMHeightCalculator
                 lbVR2.Text = Convert.ToString(v2);
                 lbVR3.Text = Convert.ToString(v2);
                 tlpRV.Visible = true;
+                lbVMassKg.Visible = true;
+                lbVMassLbs.Visible = true;
+                lbVMassKg.Text = Convert.ToString(Math.Round(totalV/2.2,1));
+                lbVMassLbs.Text = Convert.ToString(Math.Round(totalV,1));
 
             }
         }
@@ -360,6 +364,10 @@ namespace MWSMHeightCalculator
                 lbIR2.Text = Convert.ToString(i2);
                 lbIR3.Text = Convert.ToString(i2);
                 tlpRI.Visible = true;
+                lbIMassKg.Visible = true;
+                lbIMassLbs.Visible = true;
+                lbIMassKg.Text = Convert.ToString(Math.Round(totalI / 2.2, 1));
+                lbIMassLbs.Text = Convert.ToString(Math.Round(totalI, 1));
             }
 
         }
@@ -405,6 +413,10 @@ namespace MWSMHeightCalculator
             lbI1.Text = "0";
             lbI2.Text = "0";
             lbI3.Text = "0";
+            lbVMassKg.Visible = false;
+            lbVMassLbs.Visible = false;
+            lbIMassKg.Visible = false;
+            lbIMassLbs.Visible = false;
         }
     }
 }

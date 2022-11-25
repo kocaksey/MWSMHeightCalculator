@@ -63,29 +63,25 @@ namespace MWSMHeightCalculator
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.tlpRV = new System.Windows.Forms.TableLayoutPanel();
-            this.lbVR1 = new System.Windows.Forms.Label();
-            this.lbVR2 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.lbVR1 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.lbVR2 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.lbVR3 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lbIR1 = new System.Windows.Forms.Label();
             this.lbIR2 = new System.Windows.Forms.Label();
             this.lbIR3 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.lbVR3 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.tlpRI = new System.Windows.Forms.TableLayoutPanel();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -93,7 +89,23 @@ namespace MWSMHeightCalculator
             this.label34 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.btnReset = new System.Windows.Forms.Button();
+            this.lbVMassKg = new System.Windows.Forms.Label();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.lbVMassLbs = new System.Windows.Forms.Label();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.lbIMassLbs = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.lbIMassKg = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -101,10 +113,14 @@ namespace MWSMHeightCalculator
             this.tlpRV.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.tlpRI.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.tableLayoutPanel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -513,91 +529,121 @@ namespace MWSMHeightCalculator
             this.tlpRV.TabIndex = 8;
             this.tlpRV.Visible = false;
             // 
-            // lbVR1
-            // 
-            this.lbVR1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lbVR1.AutoSize = true;
-            this.lbVR1.Location = new System.Drawing.Point(20, 100);
-            this.lbVR1.Name = "lbVR1";
-            this.lbVR1.Size = new System.Drawing.Size(14, 13);
-            this.lbVR1.TabIndex = 13;
-            this.lbVR1.Text = "X";
-            // 
-            // lbVR2
-            // 
-            this.lbVR2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lbVR2.AutoSize = true;
-            this.lbVR2.Location = new System.Drawing.Point(74, 100);
-            this.lbVR2.Name = "lbVR2";
-            this.lbVR2.Size = new System.Drawing.Size(14, 13);
-            this.lbVR2.TabIndex = 14;
-            this.lbVR2.Text = "X";
-            // 
-            // label23
-            // 
-            this.label23.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(3, 100);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(145, 13);
-            this.label23.TabIndex = 11;
-            this.label23.Text = "Height of Hammer Drop (feet)";
-            // 
-            // label21
-            // 
-            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(74, 56);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(13, 13);
-            this.label21.TabIndex = 12;
-            this.label21.Text = "3";
-            // 
-            // label16
-            // 
-            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(3, 14);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(79, 13);
-            this.label16.TabIndex = 11;
-            this.label16.Text = "Impact Number";
-            // 
-            // label20
-            // 
-            this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(20, 56);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(13, 13);
-            this.label20.TabIndex = 11;
-            this.label20.Text = "3";
-            // 
-            // label18
-            // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(74, 14);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(13, 13);
-            this.label18.TabIndex = 11;
-            this.label18.Text = "II";
-            // 
             // label17
             // 
             this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(22, 14);
+            this.label17.Location = new System.Drawing.Point(22, 15);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(10, 13);
             this.label17.TabIndex = 10;
             this.label17.Text = "I";
             // 
+            // label20
+            // 
+            this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(20, 58);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(13, 13);
+            this.label20.TabIndex = 11;
+            this.label20.Text = "3";
+            // 
+            // lbVR1
+            // 
+            this.lbVR1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbVR1.AutoSize = true;
+            this.lbVR1.Location = new System.Drawing.Point(20, 101);
+            this.lbVR1.Name = "lbVR1";
+            this.lbVR1.Size = new System.Drawing.Size(14, 13);
+            this.lbVR1.TabIndex = 13;
+            this.lbVR1.Text = "X";
+            // 
+            // label18
+            // 
+            this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(74, 15);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(13, 13);
+            this.label18.TabIndex = 11;
+            this.label18.Text = "II";
+            // 
+            // label21
+            // 
+            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(74, 58);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(13, 13);
+            this.label21.TabIndex = 12;
+            this.label21.Text = "3";
+            // 
+            // lbVR2
+            // 
+            this.lbVR2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbVR2.AutoSize = true;
+            this.lbVR2.Location = new System.Drawing.Point(74, 101);
+            this.lbVR2.Name = "lbVR2";
+            this.lbVR2.Size = new System.Drawing.Size(14, 13);
+            this.lbVR2.TabIndex = 14;
+            this.lbVR2.Text = "X";
+            // 
+            // label19
+            // 
+            this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(127, 15);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(16, 13);
+            this.label19.TabIndex = 12;
+            this.label19.Text = "III";
+            // 
+            // label22
+            // 
+            this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(124, 58);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(22, 13);
+            this.label22.TabIndex = 13;
+            this.label22.Text = "1.5";
+            // 
+            // lbVR3
+            // 
+            this.lbVR3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbVR3.AutoSize = true;
+            this.lbVR3.Location = new System.Drawing.Point(128, 101);
+            this.lbVR3.Name = "lbVR3";
+            this.lbVR3.Size = new System.Drawing.Size(14, 13);
+            this.lbVR3.TabIndex = 15;
+            this.lbVR3.Text = "X";
+            // 
+            // label23
+            // 
+            this.label23.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(3, 101);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(145, 13);
+            this.label23.TabIndex = 11;
+            this.label23.Text = "Height of Hammer Drop (feet)";
+            // 
+            // label16
+            // 
+            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(3, 15);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(79, 13);
+            this.label16.TabIndex = 11;
+            this.label16.Text = "Impact Number";
+            // 
             // label15
             // 
             this.label15.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(3, 56);
+            this.label15.Location = new System.Drawing.Point(3, 58);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(122, 13);
             this.label15.TabIndex = 10;
@@ -618,7 +664,7 @@ namespace MWSMHeightCalculator
             // 
             this.lbIR1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbIR1.AutoSize = true;
-            this.lbIR1.Location = new System.Drawing.Point(20, 100);
+            this.lbIR1.Location = new System.Drawing.Point(20, 101);
             this.lbIR1.Name = "lbIR1";
             this.lbIR1.Size = new System.Drawing.Size(14, 13);
             this.lbIR1.TabIndex = 16;
@@ -628,7 +674,7 @@ namespace MWSMHeightCalculator
             // 
             this.lbIR2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbIR2.AutoSize = true;
-            this.lbIR2.Location = new System.Drawing.Point(74, 100);
+            this.lbIR2.Location = new System.Drawing.Point(74, 101);
             this.lbIR2.Name = "lbIR2";
             this.lbIR2.Size = new System.Drawing.Size(14, 13);
             this.lbIR2.TabIndex = 17;
@@ -638,7 +684,7 @@ namespace MWSMHeightCalculator
             // 
             this.lbIR3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbIR3.AutoSize = true;
-            this.lbIR3.Location = new System.Drawing.Point(128, 100);
+            this.lbIR3.Location = new System.Drawing.Point(128, 101);
             this.lbIR3.Name = "lbIR3";
             this.lbIR3.Size = new System.Drawing.Size(14, 13);
             this.lbIR3.TabIndex = 18;
@@ -654,17 +700,6 @@ namespace MWSMHeightCalculator
             this.groupBox4.TabIndex = 11;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Results";
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.tlpRI);
-            this.groupBox5.Controls.Add(this.tableLayoutPanel3);
-            this.groupBox5.Location = new System.Drawing.Point(358, 234);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(332, 151);
-            this.groupBox5.TabIndex = 12;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Results";
             // 
             // tableLayoutPanel5
             // 
@@ -682,81 +717,16 @@ namespace MWSMHeightCalculator
             this.tableLayoutPanel5.Size = new System.Drawing.Size(162, 129);
             this.tableLayoutPanel5.TabIndex = 13;
             // 
-            // label19
+            // groupBox5
             // 
-            this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(127, 14);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(16, 13);
-            this.label19.TabIndex = 12;
-            this.label19.Text = "III";
-            // 
-            // label22
-            // 
-            this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(124, 56);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(22, 13);
-            this.label22.TabIndex = 13;
-            this.label22.Text = "1.5";
-            // 
-            // lbVR3
-            // 
-            this.lbVR3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lbVR3.AutoSize = true;
-            this.lbVR3.Location = new System.Drawing.Point(128, 100);
-            this.lbVR3.Name = "lbVR3";
-            this.lbVR3.Size = new System.Drawing.Size(14, 13);
-            this.lbVR3.TabIndex = 15;
-            this.lbVR3.Text = "X";
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.ColumnCount = 1;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.label6, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label7, 0, 1);
-            this.tableLayoutPanel3.Controls.Add(this.label8, 0, 2);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 15);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 3;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(162, 129);
-            this.tableLayoutPanel3.TabIndex = 14;
-            // 
-            // label6
-            // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 14);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 13);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Impact Number";
-            // 
-            // label7
-            // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 56);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(122, 13);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Anvil Table Travel (inch)";
-            // 
-            // label8
-            // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(3, 100);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(145, 13);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Height of Hammer Drop (feet)";
+            this.groupBox5.Controls.Add(this.tlpRI);
+            this.groupBox5.Controls.Add(this.tableLayoutPanel3);
+            this.groupBox5.Location = new System.Drawing.Point(358, 234);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(332, 151);
+            this.groupBox5.TabIndex = 12;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Results";
             // 
             // tlpRI
             // 
@@ -787,7 +757,7 @@ namespace MWSMHeightCalculator
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(22, 14);
+            this.label9.Location = new System.Drawing.Point(22, 15);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(10, 13);
             this.label9.TabIndex = 10;
@@ -797,7 +767,7 @@ namespace MWSMHeightCalculator
             // 
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(20, 56);
+            this.label10.Location = new System.Drawing.Point(20, 58);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(13, 13);
             this.label10.TabIndex = 11;
@@ -807,7 +777,7 @@ namespace MWSMHeightCalculator
             // 
             this.label33.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(74, 14);
+            this.label33.Location = new System.Drawing.Point(74, 15);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(13, 13);
             this.label33.TabIndex = 11;
@@ -817,7 +787,7 @@ namespace MWSMHeightCalculator
             // 
             this.label34.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(74, 56);
+            this.label34.Location = new System.Drawing.Point(74, 58);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(13, 13);
             this.label34.TabIndex = 12;
@@ -827,7 +797,7 @@ namespace MWSMHeightCalculator
             // 
             this.label36.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(127, 14);
+            this.label36.Location = new System.Drawing.Point(127, 15);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(16, 13);
             this.label36.TabIndex = 12;
@@ -837,11 +807,57 @@ namespace MWSMHeightCalculator
             // 
             this.label37.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(124, 56);
+            this.label37.Location = new System.Drawing.Point(124, 58);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(22, 13);
             this.label37.TabIndex = 13;
             this.label37.Text = "1.5";
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.label6, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label7, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label8, 0, 2);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 15);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 3;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(162, 129);
+            this.tableLayoutPanel3.TabIndex = 14;
+            // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(3, 15);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(79, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Impact Number";
+            // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(3, 58);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(122, 13);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Anvil Table Travel (inch)";
+            // 
+            // label8
+            // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(3, 101);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(145, 13);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Height of Hammer Drop (feet)";
             // 
             // btnReset
             // 
@@ -853,11 +869,159 @@ namespace MWSMHeightCalculator
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
+            // lbVMassKg
+            // 
+            this.lbVMassKg.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbVMassKg.AutoSize = true;
+            this.lbVMassKg.Location = new System.Drawing.Point(123, 7);
+            this.lbVMassKg.Name = "lbVMassKg";
+            this.lbVMassKg.Size = new System.Drawing.Size(14, 13);
+            this.lbVMassKg.TabIndex = 14;
+            this.lbVMassKg.Text = "X";
+            this.lbVMassKg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbVMassKg.Visible = false;
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 2;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Controls.Add(this.lbVMassLbs, 1, 1);
+            this.tableLayoutPanel4.Controls.Add(this.label24, 0, 1);
+            this.tableLayoutPanel4.Controls.Add(this.label11, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.lbVMassKg, 1, 0);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(6, 22);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 2;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(174, 56);
+            this.tableLayoutPanel4.TabIndex = 15;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.tableLayoutPanel4);
+            this.groupBox6.Location = new System.Drawing.Point(696, 64);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(192, 100);
+            this.groupBox6.TabIndex = 16;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Vertical Position Total Weight";
+            // 
+            // label11
+            // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(20, 7);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(47, 13);
+            this.label11.TabIndex = 17;
+            this.label11.Text = "Total Kg";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label24
+            // 
+            this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(18, 35);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(51, 13);
+            this.label24.TabIndex = 18;
+            this.label24.Text = "Total Lbs";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbVMassLbs
+            // 
+            this.lbVMassLbs.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbVMassLbs.AutoSize = true;
+            this.lbVMassLbs.Location = new System.Drawing.Point(123, 35);
+            this.lbVMassLbs.Name = "lbVMassLbs";
+            this.lbVMassLbs.Size = new System.Drawing.Size(14, 13);
+            this.lbVMassLbs.TabIndex = 17;
+            this.lbVMassLbs.Text = "X";
+            this.lbVMassLbs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbVMassLbs.Visible = false;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.tableLayoutPanel6);
+            this.groupBox7.Location = new System.Drawing.Point(696, 234);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(192, 100);
+            this.groupBox7.TabIndex = 17;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "Inclined Position Total Weight";
+            // 
+            // tableLayoutPanel6
+            // 
+            this.tableLayoutPanel6.ColumnCount = 2;
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.Controls.Add(this.lbIMassLbs, 1, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label27, 0, 0);
+            this.tableLayoutPanel6.Controls.Add(this.label26, 0, 1);
+            this.tableLayoutPanel6.Controls.Add(this.lbIMassKg, 1, 0);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(6, 22);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 2;
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(174, 56);
+            this.tableLayoutPanel6.TabIndex = 15;
+            // 
+            // lbIMassLbs
+            // 
+            this.lbIMassLbs.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbIMassLbs.AutoSize = true;
+            this.lbIMassLbs.Location = new System.Drawing.Point(123, 35);
+            this.lbIMassLbs.Name = "lbIMassLbs";
+            this.lbIMassLbs.Size = new System.Drawing.Size(14, 13);
+            this.lbIMassLbs.TabIndex = 17;
+            this.lbIMassLbs.Text = "X";
+            this.lbIMassLbs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbIMassLbs.Visible = false;
+            // 
+            // label26
+            // 
+            this.label26.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(18, 35);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(51, 13);
+            this.label26.TabIndex = 18;
+            this.label26.Text = "Total Lbs";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label27
+            // 
+            this.label27.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(20, 7);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(47, 13);
+            this.label27.TabIndex = 17;
+            this.label27.Text = "Total Kg";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbIMassKg
+            // 
+            this.lbIMassKg.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbIMassKg.AutoSize = true;
+            this.lbIMassKg.Location = new System.Drawing.Point(123, 7);
+            this.lbIMassKg.Name = "lbIMassKg";
+            this.lbIMassKg.Size = new System.Drawing.Size(14, 13);
+            this.lbIMassKg.TabIndex = 14;
+            this.lbIMassKg.Text = "X";
+            this.lbIMassKg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbIMassKg.Visible = false;
+            // 
             // frmMwsmHeightCal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(709, 407);
+            this.ClientSize = new System.Drawing.Size(1012, 604);
+            this.Controls.Add(this.groupBox7);
+            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
@@ -879,13 +1043,19 @@ namespace MWSMHeightCalculator
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
             this.tlpRI.ResumeLayout(false);
             this.tlpRI.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -957,6 +1127,18 @@ namespace MWSMHeightCalculator
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Label lbVMassKg;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+        private System.Windows.Forms.Label lbVMassLbs;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
+        private System.Windows.Forms.Label lbIMassLbs;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label lbIMassKg;
     }
 }
 
